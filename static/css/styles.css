@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('../img/img3.jpg'); /* Adicione sua imagem de fundo aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+}
+
+
+
+.foto-perfil {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s; /* Adiciona uma transição suave */
+}
+
+.foto-perfil:hover {
+    transform: scale(1.05); /* Aumenta a imagem em 5% ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Aumenta a sombra */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left; /* Adiciona alinhamento à esquerda */
+    max-width: 600px; /* Define uma largura máxima para melhor legibilidade */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+
+header {
+    background-color: #ee8c5498; /* Cor de fundo */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    padding: 30px; /* Aumenta o espaço interno */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra para profundidade */
+    border-radius: 10px; /* Arredonda os cantos do cabeçalho */
+    margin: 20px; /* Espaço externo */
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif; /* Muda a fonte do título para Georgia */
+    font-size: 36px; /* Aumenta o tamanho da fonte */
+    margin: 0; /* Remove margens padrão */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao texto */
+}
+
+nav ul {
+    list-style-type: none; /* Remove o marcador da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin-top: 10px; /* Espaço acima da lista de navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe itens em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Negrito para os links */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(121, 65, 20);
+    text-decoration: none;
+}
+
+section {
+    padding: 30px; /* Aumenta o espaço interno */
+    margin: 20px auto; /* Centraliza a seção com margem automática */
+    background-color: rgba(255, 255, 255, 0.493); /* Fundo branco mais opaco */
+    border-radius: 10px; /* Aumenta o arredondamento dos cantos */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adiciona sombra para profundidade */
+    max-width: 900px; /* Define uma largura máxima para melhor legibilidade */
+    font-family: 'Georgia', serif; /* Muda a fonte para Georgia (ou outra de sua escolha) */
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+h2 {
+    font-size: 24px; /* Aumenta o tamanho do título */
+    color: #7B3F00; /* Define uma cor mais escura para o título */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+p {
+    font-size: 16px; /* Tamanho da fonte do parágrafo */
+    color: #333; /* Cor do texto */
+}
+
+#contato {
+    padding: 30px; /* Aumenta o espaço interno */
+    margin: 20px auto; /* Centraliza a seção com margem automática */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco mais opaco */
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px; /* Define uma largura máxima */
+}
+
+h2 {
+    font-size: 24px; /* Tamanho do título */
+    color: #7B3F00; /* Cor mais escura para o título */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o título */
+}
+
+form {
+    display: flex; /* Usar flexbox para layout */
+    flex-direction: column; /* Coloca os itens em coluna */
+}
+
+label {
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+    font-weight: bold; /* Negrito para rótulos */
+    color: #333; /* Cor do texto */
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px; /* Espaço interno dos campos */
+    margin-bottom: 15px; /* Espaço abaixo de cada campo */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: border-color 0.3s; /* Transição suave na mudança de borda */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #7B3F00; /* Cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+
+button {
+    padding: 10px; /* Espaço interno do botão */
+    background-color: #7B3F00; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave na mudança de cor de fundo */
+}
+
+button:hover {
+    background-color: #6a3200; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ee8d54b0;
+    color: white;
+}
